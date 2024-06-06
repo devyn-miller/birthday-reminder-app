@@ -147,11 +147,11 @@ If creating your own Google Sheet:
 
 Given the following example data in the `Birthday Calendar` sheet:
 
-| Name    | Birthday  | Days Until Next Birthday | Age |  | Email           |
-|---------|-----------|--------------------------|-----|--|-----------------|
-| person1 | 6/6/2003  |                          |     |  | person1@aol.com |
-| person2 | 6/6/2005  |                          |     |  | person2@aol.com |
-| person3 | 6/7/2005  |                          |     |  | person3@aol.com |
+| Name    | Birthday  | Days Until Next Birthday | Age | Notes | Email           |
+|---------|-----------|--------------------------|-----|-------|-----------------|
+| person1 | 6/6/2003  |                          |     |       | person1@aol.com |
+| person2 | 6/6/2005  |                          |     |       | person2@aol.com |
+| person3 | 6/7/2005  |                          |     |       | person3@aol.com |
 
 If today's date is June 6, 2024:
 - `person1@aol.com` will receive:
