@@ -16,17 +16,19 @@ This Google Scripts application is designed to work with a Google Sheets documen
 
 ### Google Sheets Setup
 
-1. Create a Google Sheets document.
-2. Add a sheet named `Birthday Calendar`.
-3. In the sheet, set up the columns as follows:
+- Create a Google Sheets document, or save `BirthdayCalendar.xlsx` to a Google Sheet.
+
+If creating your own Google Sheet:
+1. Add a sheet named `Birthday Calendar`.
+2. In the sheet, set up the columns as follows:
    - Column A: Name (e.g., `person1`)
    - Column B: Birthday (e.g., `6/6/2003`)
    - Column C: (unused, placeholder for `daysUntilNextBirthday`)
    - Column D: (unused, placeholder for `age`)
-   - Column E: (unused)
-   - Column F: Email (e.g., `me@chapman.edu`)
+   - Column E: Notes
+   - Column F: Email (e.g., `person1@aol.com`)
 
-4. Add your data starting from row 2 (headers in row 1).
+3. Add your data starting from row 2 (headers in row 1).
 
 ### Google Scripts Setup
 
@@ -126,6 +128,20 @@ This Google Scripts application is designed to work with a Google Sheets documen
 1. Make sure the Google Sheets document is open.
 2. Run the `main` function from the Google Scripts editor to execute the script.
 3. The script will send emails based on the data in the Google Sheets document.
+
+### Set Up a Trigger
+
+1. **Go to the Triggers**:
+   - In the Apps Script editor, click on the clock icon on the left sidebar to open the triggers page.
+2. **Add a new trigger**:
+   - Click on `+ Add Trigger`.
+   - Choose `main` function to run.
+   - Select `Time-driven` and set it to run `Daily`.
+
+### Test the Script
+
+1. **Run the script manually** from the Apps Script editor to ensure it works correctly.
+2. **Authorize the script** to access your Google account data when prompted.
 
 ## Example
 
