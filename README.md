@@ -23,8 +23,8 @@ If creating your own Google Sheet:
 2. In the sheet, set up the columns as follows:
    - Column A: Name (e.g., `person1`)
    - Column B: Birthday (e.g., `6/6/2003`)
-   - Column C: (unused, placeholder for `daysUntilNextBirthday`)
-   - Column D: (unused, placeholder for `age`)
+   - Column C: (unused, placeholder for `daysUntilNextBirthday`, which will autopopulate when value entered to Column B)
+   - Column D: (unused, placeholder for `age`, which will autopopulate when value entered to Column B)
    - Column E: Notes
    - Column F: Email (e.g., `person1@aol.com`)
 
